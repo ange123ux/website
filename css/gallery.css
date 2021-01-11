@@ -1,0 +1,19 @@
+h2{
+    text-align: center;
+}
+
+body{
+    background-color:#ffb3b3;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    padding: 8px;
+}
+.images{
+    text-align: center;
+}
+.name{
+    text-align: center;
+}
