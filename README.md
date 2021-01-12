@@ -17,7 +17,7 @@ This is a website that is designed that the user will learn different things rel
 I used programing languages to code my portfolio, the HTML language, Javascript and CASCADING STYLE SHEET for styling.
 
 ## PROJECTS THAT I DESIGNED
-[Cute Little Pets](https://ange123ux.github.io/cute-little-pets/)
+[Coding website](https://ange123ux.github.io/website/)
 
 ## License Hellow
 
