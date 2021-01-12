@@ -14,6 +14,17 @@ img{
 .images{
     text-align: center;
 }
+
+.inner-img {
+    transition: 0.3s;
+  }
+  
+.inner-img:hover {
+    transform: scale(1.1);
+  }
+  
+
 .name{
     text-align: center;
 }
+
