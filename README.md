@@ -1,7 +1,5 @@
 # Website
 
-### A portfolio is a project that shows detailed information about me, 09/28/2020
-
 ### Author: Ange Uwimana
 
 ## Description
