@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@100;300&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="js/script.js"> -->
 
     <title>Coding life</title>
     <script>
         function myFunction() {
-          document.getElementById("demo").innerHTML = "Hello!\n Thank you for registering, we will send you updates on a daily basis.";
+            document.getElementById("demo").innerHTML = "Hello!\n Thank you for registering, we will send you updates on a daily basis.";
         }
-        </script>
+    </script>
 </head>
 
 <body>
@@ -112,12 +113,16 @@
                 <hr>
                 <p id="demo">Click on Register now.</p>
 
-        <button type="button" onclick="myFunction()">Register now</button>
+                <button type="button" onclick="myFunction()">Register now</button>
+
+
 
             </div>
         </form>
+        <h1>
+            <?php echo "This message is from server side." ?>
+        </h1>
 
-        
 
 
 
@@ -127,6 +132,16 @@
 
 
 
+        <div class="contact-title">
+            <form id="contact-form" method="post" action="">
+                <input name="name" type="text" class="form-control" placeholder="Your name" required>
+                <br>
+                <input name="email" type="email" class="form-control" placeholder="Your email" required>
+                <br>
+                <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+                <input type="submit" class="form-control submit" value="SEND MESSAGE">
+            </form>
+        </div>
 
 
 
