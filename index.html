@@ -18,6 +18,10 @@
     </script>
 </head>
 
+<script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
 <body>
     <nav>
         <ul class="nav">
@@ -30,7 +34,8 @@
 
     <h3 class="meet"><em>Meet Ange Uwimana</em></h3>
     <div class="grid">
-        <img class="profile" src="https://res.cloudinary.com/ange/image/upload/v1610280314/picture_itean8.jpg"
+        <img class="profile"
+            src="https://res.cloudinary.com/ange/image/upload/v1612030092/IMG_20210130_192014_7_xnffbb.jpg"
             alt="profile">
         <div class="bio">
             <em>
@@ -96,7 +101,7 @@
                         target="_blank">NET and JavaScript</a> development tools</td>
             </tr>
         </table>
-        <form action="action_page.php" method="get" target="_blank">
+        <form>
             <div class="container">
                 <h1 id="register">REGISTER HERE</h1>
                 <p class="parag">Please fill in this form for more updates.</p>
@@ -111,20 +116,16 @@
                 <label for="psw-repeat"><b>Repeat Password</b></label>
                 <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required><br>
                 <hr>
-                <p id="demo">Click on Register now.</p>
+                
 
-                <button type="button" onclick="myFunction()">Register now</button>
-
-
-
+                <button class="button" onclick="myFunction()">Register now</button>
+                <script>
+                    function myFunction() {
+                        alert("Thank you for registering! You will be updated daily.");
+                    }
+                </script>
             </div>
         </form>
-        <h1>
-            <?php echo "This message is from server side." ?>
-        </h1>
-
-
-
 
 
 
@@ -132,7 +133,7 @@
 
 
 
-        <div class="contact-title">
+        <!-- <div class="contact-title">
             <form id="contact-form" method="post" action="">
                 <input name="name" type="text" class="form-control" placeholder="Your name" required>
                 <br>
@@ -141,10 +142,20 @@
                 <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
                 <input type="submit" class="form-control submit" value="SEND MESSAGE">
             </form>
-        </div>
+        </div> -->
 
 
+        <!-- <div id="mydiv"></div>
 
+        <script type="text/babel">
+        class Hello extends React.Component {
+          render() {
+            return <h1>Hello World!</h1>
+          }
+        }
+        
+        ReactDOM.render(<Hello />, document.getElementById('mydiv'))
+        </script> -->
 
 
 

@@ -1,5 +1,7 @@
+
 .dropbtn {
-    background-color: #4CAF50;
+    
+    background-color: #B24C63;
     color: white;
     padding: 16px;
     font-size: 14px;
@@ -7,8 +9,10 @@
   }
   
   .dropdown {
+    display:flex;
     position: relative;
     display: inline-block;
+    left: 1050px;
   }
   
   .dropdown-content {
@@ -28,25 +32,20 @@
   .dropdown-content a:hover {background-color: #ddd;}
   
   .dropdown:hover .dropdown-content {display: block;}
-  
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
-
 
 body{
-    background-color: burlywood;
+    background-color: rgb(236, 215, 223);
 }
 .boxed {
-    border: 3px solid green ;
+    border: 3px solid #B24C63 ;
     font-style: italic;
     font-size: 16px;
+    padding-left: 30px;
 
   }
 
-#center{
-    text-align: center;
-    padding-top: 100px;
-}
 .name{
-    text-align: center;
+  /* padding-top: 500px; */
+  text-align: center;
 }
 
