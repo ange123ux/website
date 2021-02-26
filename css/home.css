@@ -1,0 +1,139 @@
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #B24C63;
+  }
+  
+  h1 {
+      color: #B24C63;
+      text-align: center;
+  }
+  .header{
+    font-weight: bolder;
+  }
+  .meet{
+    margin-left: 100px;
+  }
+  .profile{
+      height: 290px;
+      width: 240px;
+  }
+  
+  .grid {
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
+    margin-left: 100px;
+  }
+  
+  body{
+      /* background-color: antiquewhite; */
+      font-family: 'Fraunces', serif;
+      font-size: 16px;
+      background-image: url(https://res.cloudinary.com/ange/image/upload/v1612025571/backback_dmemrx.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+  
+  #programmers{
+    color: #B24C63;
+  }
+  
+  table, th, td {
+      border: 1px solid black;
+    }
+  
+    * {box-sizing: border-box}
+  
+  .parag{
+    text-align: center;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 5px;
+    text-align: center;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 25%;
+    padding: 15px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    /* float: left; */
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 1px;
+  }
+  
+  /* Set a style for the submit/register button */
+  #register {
+    color: white;
+  }
+  
+  .button{
+    background-color: #af4c86;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+  .registerbtn:hover {
+    opacity:1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  button{
+    color: #B24C63;
+    background-color: black;
+    margin-bottom: 20px;
+  }
+  
+  .done{
+    text-align: center;
+  }
+  
+  
