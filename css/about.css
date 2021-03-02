@@ -1,0 +1,218 @@
+/* .nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+
+
+
+
+.dropbtn {
+    
+    background-color: #B24C63;
+    color: white;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+  }
+  
+  .dropdown {
+    display:flex;
+    position: relative;
+    display: inline-block;
+    left: 1050px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    font-size: 12.5px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+body{
+    background-color: rgb(236, 215, 223);
+}
+.boxed {
+    border: 3px solid #B24C63 ;
+    font-style: italic;
+    font-size: 16px;
+    padding-left: 30px;
+
+  }
+
+.name{
+  text-align: center;
+}
+ */
+
+ .topnav{
+  color: white;
+  width: 90%;
+  margin: 2% auto;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.topnav a{
+  color: white;
+}
+
+.topnav a:hover{
+  color: darkorange;
+}
+
+nav{
+  width: 90%;
+  margin: 2% auto;
+  text-align: right;
+}
+
+nav a{
+  text-decoration: none;
+  color: #fff;
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+nav a:hover{
+  color: darkorange;
+}
+
+.dropbtn {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: darkorange;}
+
+
+
+
+body {
+  font-family: 'Akaya Telivigala', cursive;
+  margin: 0;
+  font-size: 18px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.card img{
+  height: 250px;
+  width: 30px;
+}
+
+
+.about-section {
+  padding: 6px;
+  text-align: center;
+  /* background-color: #474e5d; */
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: white;
+}
+
+
+.picture{
+  text-align:left;
+
+}
+p{
+  color: white;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}

@@ -1,132 +1,85 @@
-/* .nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+body{
+    font-family: 'Akaya Telivigala', cursive;
   }
-  
-  li {
-    float: left;
+.topnav{
+  color: white;
+  width: 90%;
+  margin: 2% auto;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.topnav a{
+  color: white;
+}
+
+.topnav a:hover{
+  color: darkorange;
+}
+
+nav{
+  width: 90%;
+  margin: 2% auto;
+  text-align: right;
+}
+
+nav a{
+  text-decoration: none;
+  color: #fff;
+  padding: 0 10px;
+  text-transform: uppercase;
+  /* font-weight: 700;
+  font-size: 18px; */
+}
+
+nav a:hover{
+  color: darkorange;
+}
+
+.banner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.banner h2{
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  transform: translate(-50%);
+  color: #fff;
+  font-size: 60px;
+  margin: 0;
+  animation: animate 1s ease forwards;
+  animation-delay: 1s;
+  opacity: 0;
+  color: darkorange;
+  text-align: center;
+}
+
+.banner q{
+  position: absolute;
+  top: 44%;
+  left: 15%;
+  color: #ddd;
+  font-size: 18px;
+  width: 50%;
+  line-height: 30px;
+}
+
+@keyframes animate{
+  0%{
+    top: 30%;
+    opacity:0;
   }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  70%{
+    opacity:0.3
   }
-  
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: #B24C63;
-  }
-  
-  h1 {
-      color: #B24C63;
-      text-align: center;
-  }
-  .header{
-    font-weight: bolder;
-  }
-  .meet{
-    margin-left: 100px;
-  }
-  .profile{
-      height: 290px;
-      width: 240px;
-  }
-  
-  .grid {
-    display: grid;
-    gap: 1rem;
-    grid-auto-flow: column;
-    grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
-    margin-left: 100px;
-  }
-  
-  body{
-      font-family: 'Fraunces', serif;
-      font-size: 16px;
-      background-image: url(https://res.cloudinary.com/ange/image/upload/v1612025571/backback_dmemrx.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-  }
-  
-  #programmers{
-    color: #B24C63;
-  }
-  
-  table, th, td {
-      border: 1px solid black;
-    }
-  
-    * {box-sizing: border-box}
-  
-  .parag{
-    text-align: center;
-  }
-  
-  .container {
-    padding: 5px;
-    text-align: center;
-  }
-  
-  input[type=text], input[type=password] {
-    width: 25%;
-    padding: 15px;
-    margin: 5px 0 10px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-  }
-  
-  input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-  }
-  
-  hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 1px;
-  }
-  
-  #register {
-    color: white;
-  }
-  
-  .button{
-    background-color: #af4c86;
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    width: 30%;
-    opacity: 0.9;
-    margin-left: 50px;
-    margin-bottom: 20px;
-  }
-  .registerbtn:hover {
+  100%{
     opacity:1;
+    top: 25%;
   }
-  
-  a {
-    color: dodgerblue;
-  }
-  
-  button{
-    color: #B24C63;
-    background-color: black;
-    margin-bottom: 20px;
-  }
-  
-  .done{
-    text-align: center;
-  }
-  
+}
+
    

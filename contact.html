@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
-    <title>AU Portfolio</title>
+    <title>Contact AU</title>
 </head>
 
 <body>
     <style>
         body {
-            background-image: url('/img/back1.jpg');
+            background-image: url('/img/back4.jpeg');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
@@ -27,7 +27,7 @@
         </a>
         <i class="fa fa-phone" aria-hidden="true"> 0789370932</i>
         <i class="fa fa-fw fa-envelope" aria-hidden="true">uuwange@gmail.com </i>
-        
+
     </div>
     <nav>
         <a href="home.html">Home</a>
@@ -35,16 +35,43 @@
             <div class="dropbtn">My Projects</div>
             <div class="dropdown-content">
                 <a href="https://github.com/ange123ux?tab=repositories" target="_blank">Find my projects here</a>
-            
             </div>
         </div>
         <a href="about.html">About Me</a>
         <a class="active" href="contact.html">Contact Me</a>
     </nav>
-    <div class="banner">
-        <h2>Welcome to Ange Uwimana's Portfolio!</h2>
-        <q> A value is valuable when the value of value is valuable to oneself. If you didn't know, now you know.</q>
+
+    <h2>Contact Ange Uwimana</h2>
+
+    <button class="open-button" onclick="openForm()"><b>Open Form</b></button>
+    <div class="form-popup" id="myForm">
+        <form class="form-container">
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="message"><b>Message</b></label>
+            <input type="text" placeholder="Enter Message" name="message" required><br>
+
+            <button type="Submit" class="btn btn danger" onclick="myFunction()">Submit</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
     </div>
+
+
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+
+        function myFunction() {
+            alert("Thank you for contacting Ange Uwimana! She will get back to you soon!");
+        }
+    </script>
 
 </body>
 
