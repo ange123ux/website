@@ -1,23 +1,27 @@
-# Website
+# PORTFOLIO
+
+### A portfolio is a project that shows detailed information about me, 09/28/2020
 
 ### Author: Ange Uwimana
 
 ## Description
 
-This is a website that is designed that the user will learn different things related to coding. Also, the user will be able to register him/herself so that they may recieve related news daily. Not only that, but also the user can visit gallery, see covid-19 updates and so forth
-12th/January/2021
+{This application is known as a portfolio, it gives more information about who I am , my background , my Education my hobbies , skills and among others. I'ts kind of an online curriculum vitae }
 
 ## Setup/Installation Requirements
+
 * installation of ubuntu
 * instaling git
 * signing up to github
 * start using it
-
 ## Technologies Used
-I used programing languages to code my portfolio, the HTML language, Javascript and CASCADING STYLE SHEET for styling.
+{I used programing languages to code my portfolio, the HTML language and CASCADING STYLE SHEET as well as js for styling}
 
-## PROJECTS THAT I DESIGNED
-[Coding website](https://ange123ux.github.io/website/)
+  ## PROJECTS THAT I DESIGNED
+[Cute Little Pets](https://ange123ux.github.io/cute-little-pets/)   
+[My portfolio](https://ange123ux.github.io/Portfolio/.)
+
+
 
 ## License Hellow
 
@@ -38,4 +42,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.}
-Copyright (@) {2021} {Ange Uwimana}
+Copyright (@) {2020} {Ange Uwimana}
